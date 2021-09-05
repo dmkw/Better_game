@@ -18,7 +18,7 @@ let tellStory = function () {
 
 let StartGameButton = $("start-game-button");
 StartGameButton.onclick = function () {
-    document.location.href="Главное меню.html";
+    document.location.href="pages/Главное меню.html";
 }
 
 let tellStoryButton = $("tell-story-button");
