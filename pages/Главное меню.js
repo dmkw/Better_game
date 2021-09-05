@@ -117,7 +117,7 @@ startNewGameButton.onclick = function () {
     localStorage.health = 30;
     localStorage.damage = 15;
     localStorage.money = 0;
-    document.location.href="index.html"
+    document.location.href="../index.html"
 }
 
 let goToShopButton = $("go-to-shop");
